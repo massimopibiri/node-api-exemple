@@ -1,0 +1,32 @@
+{
+  "missing_authorization_header": {
+    "status": 401,
+    "code": "missing_authorization_header",
+    "title": "Authorization header is missing, unable to authenticate",
+    "detail": "An `Authorization` header with the `Bearer` scheme is required to authenticate the request."
+  },
+  "unauthorized": {
+    "status": 401,
+    "code": "unauthorized",
+    "title": "Unauthorized Access",
+    "detail": "You have to provide an Authorization header with a valid token in order to access this resource."
+  },
+  "forbidden": {
+    "status": 403,
+    "code": "forbidden",
+    "title": "Resource Access Forbidden",
+    "detail": "You are not allowed to access this resource with the token or credentials you have provided."
+  },
+  "not_found": {
+    "status": 404,
+    "code": "not_found",
+    "title": "Resource Not Found",
+    "detail": "The resource you are trying to reach does not exist or has been disabled or deleted from our services."
+  },
+  "code": {
+    "status": 401,
+    "code": "",
+    "title": "",
+    "detail": ""
+  }
+}

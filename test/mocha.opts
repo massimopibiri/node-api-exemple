@@ -1,0 +1,6 @@
+--require @babel/register
+--require test/setup/mocha.env.js
+--require test/setup/index.js
+--timeout 5000
+--recursive
+src/**/*.spec.js
